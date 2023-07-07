@@ -20,10 +20,8 @@
     
 }
 .navbar>li:hover{
-    color: red;
-    font-size: 20px;
-    border-bottom: 2px solid red;
-    transition: 0.7s;
+    color: rgb(202, 23, 23);
+    transition: 0.1s;
     cursor: pointer;
 }
 .n-button{
@@ -53,34 +51,70 @@
 }
 .kj{
    
-    background-image:linear-gradient(90deg,rgb(32, 32, 30), grey);
+    background-image:linear-gradient(90deg,rgb(32, 32, 30), rgb(41, 20, 20));
     color: #fff;
-    padding: 95px;
+    padding: 65px;
+    height: 60vh;
+    
 }
 .ervice{ 
     display: flex;
     justify-content: space-around;
     align-items: center;
-   
+   padding: 45px;
 
 }
 
 .card{
     background-color: #080808;
-    align-content: center;
+    text-align: center;
     color: #fff;
-    height: 400px;
-    width: 300px;
+    height: 300px;
+    width: 220px;
     margin: 10px;
     padding: 15px;
-    box-sizing: border-box;
-    border: 2px solid #080808;
-    box-shadow: 5px, 10px, 0.3 red;
+    border: 2px solid #201e1e;
+    box-shadow: 5px 5px 15px rgb(158, 107, 107);
 }
 footer{
     text-align: center;
-    font-weight: bold;
-    padding: 5px;
+    font-size: 15px;
+    padding: 15px;
     color: #fff;
     background-color: black;
+}
+.contact{
+    color: #fff;
+    padding: 25px;
+    font-size: 35px;
+    text-align: center;
+    background: #cf2d2d;
+    font-style: oblique;
+}
+.contact-cont{
+    background-image: linear-gradient(90deg, rgb(158, 105, 105), #da3131);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 65vh;
+}
+.phn{
+    text-align: justify;
+    font-style: italic;
+    font-size: 30px;
+    border-left: 1px solid black;
+    padding: 35px;
+}
+.navfat>ul{
+    list-style-type: none;
+    text-align: justify;
+    font-style: italic;
+    text-decoration: underline;
+    font-size: 25px;
+    border-left: 2px solid black;
+    padding: 35px;
+    cursor: pointer;
+}
+address{
+    font-size: 25px;
 }
